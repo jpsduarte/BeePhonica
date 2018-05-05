@@ -1,0 +1,31 @@
+{
+  "name": "falemais",
+  "version": "1.0.0",
+  "description": "falemais project powered by beephonica",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpsduarte/BeePhonica.git"
+  },
+  "keywords": [
+    "falemais",
+    "node",
+    "js",
+    "jasmine"
+  ],
+  "author": "João Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpsduarte/BeePhonica/issues"
+  },
+  "homepage": "https://github.com/jpsduarte/BeePhonica#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  }
+}
